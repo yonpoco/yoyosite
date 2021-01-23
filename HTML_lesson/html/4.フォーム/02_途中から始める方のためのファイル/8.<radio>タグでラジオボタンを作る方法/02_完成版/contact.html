@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact | Yumi Tamura</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+</head>
+
+<body>
+
+    <!-- ここからheader -->
+    <header>
+        <h1><a href="html-rensyu_01.html">Yumi Tamura</a></h1>
+        <h2>Designer</h2>
+        <nav>
+            <ul>
+                <li><a href="rensyu01_about.html">ABOUT</a></li>
+                <li><a href="rensyu01_gellery.html">GELLERY</a></li>
+                <li><a href="rensyu01_contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ここまでheader -->
+
+
+
+
+    <div>
+        <section>
+            <h1>CONTACT</h1>
+
+
+
+            <!-- ここからフォーム -->
+            <form>
+                <fieldset>
+                    <legend>基本情報</legend>
+                    <label for="name">お名前：</label>
+                    <input id="name" type="text" name="お名前">
+
+                    <label for="mail">メールアドレス：</label>
+                    <input id="mail" type="text" name="メールアドレス">
+
+                    <label>区分</label>
+                    <input id="personal" type="radio" name="区分" value="個人の方">
+                    <label for="personal">個人の方</label>
+
+                    <input id="corporation" type="radio" name="区分" value="企業の方">
+                    <label for="corporation">企業の方</label>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>お問い合わせ本文</legend>
+
+                    <label for="category">お問い合わせの種類</label>
+                    <select id="category" name="お問い合わせの種類">
+                        <optgroup label="業務について">
+                            <option>デザイン業務について</option>
+                            <option>講師業について</option>
+                            <option selected="selected">DTP制作について</option>
+                            <option>プロダクトデザインについて</option>
+                        </optgroup>
+
+                        <optgroup label="制作について">
+                            <option>納期について</option>
+                            <option>価格について</option>
+                            <option>支払い方法について</option>
+                            <option>その他</option>
+                        </optgroup>
+                    </select>
+
+                    <label for="para">本文：</label>
+                    <textarea id="para" name="本文" placeholder="お問い合わせ内容など、自由にお書き下さい。"></textarea>
+                </fieldset>
+
+                <input type="submit" value="送信する">
+                <input type="reset" value="初期化する">
+            </form>
+            <!-- ここまでフォーム -->
+
+
+
+
+        </section>
+    </div>
+    <!-- ここまでコンテンツ -->
+
+
+
+
+
+
+    <!-- ここからフッター -->
+    <footer>
+        <p>&copy; 2015 Yumi Tamura</p>
+    </footer>
+    <!-- ここまでフッター -->
+</body>
+
+</html>

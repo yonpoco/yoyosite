@@ -1,0 +1,128 @@
+*{ margin: 0; padding: 0;}
+.clearfix {
+  clear-after: left;
+}
+
+/* もしくは、clearプロパティにキーワードの複数指定 */
+.clearfix {
+  clear: left after;
+}
+
+body {
+	font-family: "Noto Sans","Hiragino Kaku Gothic Pro","Yu Gothic","Meiryo",sans-serif;
+	font-size: 14px;
+	color: #555;
+}
+#wrapper {
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+}
+header {
+	background-color: #662A37;
+	color: #fff;
+	font-family: 'Shadows Into Light', cursive;
+	border-radius: 0px 0px 20px 20px;
+	text-align: center;
+}
+header h1 {
+	letter-spacing: 3px;
+	padding: 10px 0;
+}
+header ul {
+	list-style: none;
+}
+header ul li {
+	font-size: 13px;
+	height: 30px;
+	line-height: 30px;
+	border-top: 1px solid #733441;
+}
+header ul li:hover {
+	cursor: pointer;
+	color: #733441;
+	list-style: none;
+}
+
+
+#menu {
+	margin: 30px 0;
+}
+#menu h2,
+#ranking h2 {
+	font-family: 'Shadows Into Light', cursive;
+	color: #662A37;
+	font-size: 28px;
+	border-left: 4px solid #662A37;
+	padding: 0 0 0 10px;
+	line-height: 28px;
+	height: 26px;
+	margin: 0 0 10px 0;
+	letter-spacing: 3px;
+}
+#menu p,
+#ranking p {
+	font-size: 12px;
+	color: #662A37;
+	margin: 0 0 20px 0;
+}
+
+#menu ul {
+	list-style: none;
+}
+#menu ul li {
+	margin: 0 0 20px 0;
+	border-bottom: 1px dashed #662A37;
+	padding: 0 0 20px 0;
+}
+#menu ul li dl {
+
+}
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #662A37;
+}
+
+hr {
+	border: dashed 1px #ccc;
+	margin-bottom: 20px;
+}
+#menu ul li dl dd {
+	font-size: 14px;
+	margin: 8px 0 0 0;
+	line-height: 1;
+}
+
+
+
+#ranking {
+	margin: 60px 0;
+}
+#ranking ul li {
+	margin: 0 0 30px 0;
+	font-size: 16px;
+	font-weight: 900;
+}
+#ranking ul,#ranking ol {
+	margin: 0 0 0 30px;
+}
+
+#ranking ul li ol li {
+	margin: 0;
+	font-size: 13px;
+	font-weight: 100;
+}
+
+
+
+footer {
+	border-top: 1px solid #662A37;
+	color: #662A37;
+	font-size: 12px;
+	padding: 20px 0;
+}
+
+
+

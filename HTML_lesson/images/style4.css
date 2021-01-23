@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.clearfix {
+  clear-after: left;
+}
+
+/* もしくは、clearプロパティにキーワードの複数指定 */
+.clearfix {
+  clear: left after;
+}
+
+
+body {
+	font-family: "Noto Sans","Hiragino Kaku Gothic Pro","Yu Gothic","Meiryo",sans-serif;
+}
+
+div#wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	padding: 30px 0 50px 0;
+	margin: 0 0 50px 0;
+	border-bottom: 1px solid #E9E9E9;
+}
+
+header h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	float: left;
+	line-height: 1;
+	color: #606375;
+}
+
+header nav {
+	float: right;
+}
+header nav ul {
+	
+}
+header nav ul li {
+	float: left;
+	margin: 10px 0 0 0;
+}
+header nav ul li a {
+	color: #606375;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 0 0 0 20px;
+}
+header nav ul li a:hover {
+	text-decoration: underline;
+}
+
+
+
+section h2 {
+	font-size: 20px;
+	font-weight: 900;
+	padding: 0 0 30px 0;
+	border-bottom: 2px solid #4D5269;
+	margin: 0 0 20px 0;
+}
+section h2 span {
+	font-size: 14px;
+	font-weight: 900;
+	color: #999999;
+	margin: 0 0 0 10px;
+}
+
+
+table {
+	text-align: left;
+	border: none;
+	border-collapse: collapse;
+}
+table tr {
+}
+table tr th {
+	background-color: #E9E9E9;
+	padding: 10px;
+	vertical-align: top;
+	font-size: 16px;
+}
+table tr td {
+	padding: 10px;
+	font-size: 13px;
+}
+
+
+footer {
+	font-size: 12px;
+	background-color: #4D5269;
+	color: #7F8391;
+	padding: 30px 0;
+	margin: 80px 0 0 0;
+}
+footer p {
+	width: 900px;
+	margin:  0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

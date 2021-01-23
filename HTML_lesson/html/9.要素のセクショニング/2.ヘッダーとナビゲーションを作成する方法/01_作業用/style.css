@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.clearfix {
+  clear-after: left;
+}
+
+/* もしくは、clearプロパティにキーワードの複数指定 */
+.clearfix {
+  clear: left after;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 990px;
+}
+
+body {
+	background-color: #EDEFF0;
+}
+
+
+
+
+header {
+	background-color: #3E474F;
+	width: 100%;
+	height: 60px;
+	margin-bottom: 20px;
+}
+header h1 {
+	color: #fff;
+	float: left;
+	line-height: 1;
+	padding: 13px;
+}
+nav {
+	background-color: #797F84;
+	width: 500px;
+	height: 40px;
+	margin: 10px;
+	float: right;
+}
+
+div#container {
+	margin: 0 auto 20px auto;
+	width: 990px;
+}
+div#main {
+	width: 610px;
+	height: auto;
+	padding: 15px 15px 0 15px;
+	float: left;
+	background-color: #fff;
+	border-bottom: 2px solid #D4D6D7;
+	margin: 0 0 40px 0;
+}
+article {
+	width: 570px;
+	height: auto;
+	background-color: #A9B3BB;
+	margin: 20px 0;
+	padding: 20px;
+}
+section {
+	background-color: #C6CCD2;
+	margin: 20px 0 0 0;
+}
+div#sidebar {
+	width: 300px;
+	float: right;
+	background-color: #fff;
+	border-bottom: 2px solid #D4D6D7;
+	margin: 0 0 40px 0;
+	padding: 15px;
+}
+
+footer {
+	clear: both;
+	border-top: 1px solid #B7B7B7;
+	padding: 20px 0;
+}
