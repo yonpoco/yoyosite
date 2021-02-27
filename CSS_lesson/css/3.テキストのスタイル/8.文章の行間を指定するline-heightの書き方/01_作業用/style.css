@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -------------------- フォントの種類を指定するCSS */
+
+header h1 {
+	font-family: 'Lobster', cursive;
+}
+
+div#meiryo {
+    font-family: "Meiryo";
+}
+
+div#comic {
+    font-family: "Comic Sans MS";
+}
+
+div#hiragino {
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+div#sanserif {
+    font-family: sans-serif;
+}
+
+div#serif {
+    font-family: serif;
+}
+
+
+/* -------------------- フォントの大きさを指定する方法 */
+
+header {
+    font-size: 100px;
+}
+h1 {
+    font-size: 50%;
+}
+
+header p {
+    font-size: 14%;
+}
+
+
+/* -------------------- 文字の太さを変更する方法 */
+
+h2 {
+    font-weight: normal;
+}
+
+p {
+    font-weight: bold;
+}
+
+
+
+/* -------------------- テキストに下線・上線・打ち消し線 */
+
+h2 {
+    text-decoration: underline;
+}
+
+
+
+
+/* -------------------- 文章の行間を指定する方法 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- デフォルトのスタイル */
+
+body {
+    background-color: #f2f2f2;
+    padding: 30px;
+    color: #595758;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+div{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+code {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+}

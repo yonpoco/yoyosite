@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+/* ========================================
+    リセットcss
+========================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style:normal;
+	font-weight: normal;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html{overflow-y: scroll;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+input, textarea,{margin: 0; padding: 0;}
+ol, ul{list-style:none;}
+table{border-collapse: collapse; border-spacing:0;}
+caption, th{text-align: left;}
+a:focus {outline:none;}
+
+
+/* ========================================
+	フロートの解除
+========================================= */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
+
+/* ========================================
+	全体設計
+========================================= */
+body {
+	color:rgb(91,98,113);
+	font-size: 14px;
+	line-height: 1;
+	font-family: "明朝体", serif;
+	background-color: rgb(255,249,236);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* ========================================
+    ラッパー
+========================================= */
+div#wrapper{
+    width:960px;
+    height: auto;
+    margin: 0,auto;
+}
+
+/* ========================================
+    ヘッダー
+========================================= */
+header{
+    width: 960px;
+	height: 200px;
+}
+header h1 img{
+	width: 600px;
+	height: 150px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+
+}
+
+nav ul {
+	width: auto;
+	height: 200px;
+
+}
+
+nav ul li{
+	float: right;
+	margin-left: 20px;
+	margin-top: 120px;
+
+}
+
+
+
+nav ul li a{
+	color: rgb(219,0,35);
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+/* ========================================
+    メイン画像
+========================================= */
+
+
+
+
+
+div#mainimage img{
+	width: 960px;
+	height: auto;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+/* ========================================
+    メイン画像
+========================================= */
+div#one{
+	width: 750px;
+	height: auto;
+	float: left;
+	margin-left: 30px;
+}
+
+div#one h2{
+	color: rgb(219,0,35);
+	font-size: 30px;
+	font-weight: bold;
+	width: 556px ;
+	margin-bottom: 15px;
+
+
+}
+
+div#one dl{
+	background-color: white;
+	width: 420px ;
+	height:160px;
+}
+
+
+div#one dt{
+	font-size: 15px;
+	float: left;
+	width: 79px;
+	line-height: 40px;
+	padding-left: 30px;
+}
+
+div#one dd{
+	font-size: 15px;
+	float: left;
+	width: 200px;
+	line-height: 40px;
+	padding-left: 30px
+
+}
+
+div.clearfix{
+	clear: both;
+}
+/* ========================================
+    フッター
+========================================= */
+
+
+footer{
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+
+
+footer nav  ul li{
+
+	float: right;
+}
+
+footer nav ul li a{
+	text-decoration: none;
+	color: rgb(219,0,35);
+	font-weight: bold;
+	margin-left: 30px;
+
+}
+footer p{
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+
+}

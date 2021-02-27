@@ -1,0 +1,26 @@
+/* -------------------- base css ↓↓ */
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    margin: 30px auto;
+    width: 800px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* -------------------- your css ↓↓ */
+
+a {
+    background-color: blue;
+    color: white;
+}
+
+a:hover {
+    background-color: red;
+}
+
+a:active {
+    background-color: yellow;
+}

@@ -1,0 +1,11 @@
+@@charset "UTF-8";
+
+body{
+
+}
+
+header{
+    width: 960px;
+    height: 89px;
+    background-color: red;
+}

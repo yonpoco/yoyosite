@@ -1,0 +1,9 @@
+/* -------------------- base css ↓↓ */
+
+table {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* -------------------- your css ↓↓ */

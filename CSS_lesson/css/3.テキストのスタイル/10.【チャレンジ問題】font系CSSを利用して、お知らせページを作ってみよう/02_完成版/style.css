@@ -1,0 +1,84 @@
+/* ------------------------------ base css ↓↓ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #595758;
+    background-color: #f2f2f2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+div#news {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #cdcdcd;
+    width: 500px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+div#news h2 {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* ------------------------------ your css ↓↓ */
+
+body {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+header p {
+    font: italic bold 14px "ＭＳ Ｐゴシック", sans-serif;
+    line-height: 30px;
+}
+
+div#news h2 {
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+div#news dl dt {
+    font-size: 12px;
+    color: #999;
+    font-weight: bold;
+}
+
+div#news dl dd {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+div#news dl dd a {
+    color: #EE2022;
+    text-decoration: none;
+}
+
+div#news dl dd a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin: 60px 0;
+    font-size: 12px;
+}

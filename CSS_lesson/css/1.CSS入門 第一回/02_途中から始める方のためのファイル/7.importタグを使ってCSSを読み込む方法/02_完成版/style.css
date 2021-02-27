@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+@import "import.css";
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
+
+header {
+    background-color: #3BD5D4;
+}

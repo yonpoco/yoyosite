@@ -1,0 +1,17 @@
+/* -------------------- your css ↓↓ */
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h2#about_selector {
+    color: pink;
+}
+
+* {
+    color: gray;
+}

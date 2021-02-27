@@ -1,0 +1,27 @@
+@import "import.css";
+
+body {
+    text-align: center;
+    background-color: #F9F9F9;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+}
+
+header {
+    background-color: #3BD5D4;
+}
+
+a {
+    color: #fff;
+    background-color: #3BD5D4;
+    font-weight: bold;
+}

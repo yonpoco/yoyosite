@@ -1,0 +1,27 @@
+/* -------------------- base css ↓↓ */
+
+table {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* -------------------- your css ↓↓ */
+
+th {
+    color: #526A36;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    background-color: #CFE7B3;
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+}
+
+table tr:nth-child(2n+1) {
+    background-color: #F0F9E4;
+}

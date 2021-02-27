@@ -1,0 +1,13 @@
+/* -------------------- base css ↓↓ */
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    margin: 30px auto;
+    width: 800px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* -------------------- your css ↓↓ */

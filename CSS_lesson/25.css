@@ -1,0 +1,31 @@
+/* -------------------- base css ↓↓ */
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #595758;
+    background-color: #f2f2f2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    width: 800px;
+    margin: auto;
+}
+
+
+/* -------------------- your css ↓↓ */
+
+p::first-line{
+    font-weight:bold;
+    font-size:19px;
+    color: #3D2D51;
+}
+
+P::first-letter{
+    font-size: 80px;
+    line-height: 1;
+    float: left;
+}

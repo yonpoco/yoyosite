@@ -1,0 +1,9 @@
+/* -------------------- your css ↓↓ */
+
+li:first-child {
+    color: orange;
+}
+
+li:last-child {
+    color: green;
+}
